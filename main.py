@@ -1,16 +1,16 @@
 """Fills in an HTML template with user data to construct a custom webpage."""
 
 # Collect user profile data.
-first_name = input("What's your first name? ")
+first_name = input("あなたの名前は何ですか？ ")
 
 # Construct a personalized page header for the logged in user.
-header_title = "<h1>Guest's profile</h1>"
+header_title =テストのSNSです"<h1>Guest's profile</h1>"
 header_subtitle = "<h2>Hello, " + first_name + "!</h2>"
 header_content = "<p>unknown@example.com</p>"
 page_header = header_title + header_subtitle + header_content
 
 # Construct the main profile page content.
-section_title = "<h2>About guest</h2>"
+section_title = "<h2>ゲストについて</h2>"
 section_text = "<p>This is a cool bio.</p>"
 button = "<button>Like</button>"
 section_footer = "<p>Notifications: 4</p>"
